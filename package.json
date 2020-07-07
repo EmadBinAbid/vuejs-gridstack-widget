@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
+    "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "gridstack": "^1.1.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "uuid": "^8.2.0",
+    "vue": "^2.6.11",
+    "vue-swatches": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
